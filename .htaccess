@@ -1,0 +1,141 @@
+RewriteEngine On
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://www.infamousgangsters.net/$1 [R,L]
+
+# AddEncoding allows you to have certain browsers uncompress information on the fly. Note: Not all browsers support this.
+AddEncoding x-compress .Z
+AddEncoding x-gzip .gz .tgz
+
+# BEGIN cPanel-generated php ini directives, do not edit
+# Manual editing of this file may result in unexpected behavior.
+# To make changes to this file, use the cPanel MultiPHP INI Editor (Home >> Software >> MultiPHP INI Editor)
+# For more information, read our documentation (https://go.cpanel.net/EA4ModifyINI)
+<IfModule php5_module>
+   php_flag engine On
+   php_flag short_open_tag On
+   php_flag asp_tags Off
+   php_value precision 12
+   php_value output_buffering Off
+   php_value zlib.output_compression Off
+   php_flag implicit_flush Off
+   php_value serialize_precision 100
+   php_value max_execution_time 30
+   php_value max_input_time 60
+   php_value memory_limit 128M
+   php_value error_reporting E_ALL & ~E_NOTICE
+   php_flag display_errors Off
+   php_flag display_startup_errors Off
+   php_flag log_errors On
+   php_value log_errors_max_len 1024
+   php_flag ignore_repeated_errors On
+   php_flag ignore_repeated_source On
+   php_flag report_memleaks On
+   php_flag track_errors Off
+   php_value error_log "error_log"
+   php_value variables_order "EGPCS"
+   php_flag register_long_arrays Off
+   php_flag register_argc_argv On
+   php_flag auto_globals_jit On
+   php_value post_max_size 10M
+   php_flag magic_quotes_sybase Off
+   php_value default_mimetype "text/html"
+   php_value include_path ".:/usr/lib64/php:/usr/share/pear"
+   php_value upload_max_filesize 10M
+   php_value default_socket_timeout 60
+   php_value date.timezone "America/Denver"
+   php_value pcre.backtrack_limit 200000
+   php_value pcre.recursion_limit 200000
+   php_value SMTP "localhost"
+   php_value smtp_port 25
+   php_value odbc.defaultlrl 4096
+   php_value odbc.defaultbinmode 1
+   php_value mysql.connect_timeout 60
+   php_flag mysql.trace_mode Off
+   php_value mysqli.default_port 3306
+   php_value pgsql.ignore_notice 0
+   php_value pgsql.log_notice 0
+   php_value bcmath.scale 0
+   php_value session.save_handler "files"
+   php_value session.save_path "/tmp"
+   php_flag session.use_cookies On
+   php_value session.name "PHPSESSID"
+   php_flag session.auto_start Off
+   php_value session.cookie_lifetime 0
+   php_value session.cookie_path "/"
+   php_value session.serialize_handler "php"
+   php_value session.gc_probability 1
+   php_value session.gc_divisor 100
+   php_value session.gc_maxlifetime 1440
+   php_value session.entropy_length 0
+   php_value session.cache_limiter "nocache"
+   php_value session.cache_expire 180
+   php_flag session.use_trans_sid Off
+   php_value session.hash_function "0"
+   php_value session.hash_bits_per_character 5
+   php_value url_rewriter.tags "a=href,area=href,frame=src,input=src,form=,fieldset="
+   php_flag tidy.clean_output Off
+   php_flag soap.wsdl_cache_enabled On
+   php_value soap.wsdl_cache_dir "/tmp"
+   php_value soap.wsdl_cache_ttl 86400
+   php_value max_input_vars 1000
+   
+</IfModule>
+# END cPanel-generated php ini directives, do not edit
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# NOTE this account's php is controlled via FPM and the vhost, this is a place holder.
+# Do not edit. This next line is to support the cPanel php wrapper (php_cli).
+# AddType application/x-httpd-ea-php55 .php .phtml
+# php -- END cPanel-generated handler, do not edit
+
+<Files 403.shtml>
+order allow,deny
+allow from all
+</Files>
+
+<IfModule mod_expires.c>
+    # Enable expirations
+    ExpiresActive On 
+    # Default directive
+    ExpiresDefault "access plus 1 month"
+    # My favicon
+    ExpiresByType image/x-icon "access plus 1 year"
+    # Images
+    ExpiresByType image/gif "access plus 1 month"
+    ExpiresByType image/png "access plus 1 month"
+    ExpiresByType image/jpg "access plus 1 month"
+    ExpiresByType image/jpeg "access plus 1 month"
+    # CSS
+    ExpiresByType text/css "access plus 1 month"
+    # Javascript
+    ExpiresByType application/javascript "access plus 1 year"
+</IfModule>
+
+# BEGIN Cache-Control Headers
+<ifModule mod_headers.c>
+  <filesMatch "\.(ico|jpe?g|png|gif|swf)$">
+    Header set Cache-Control "public"
+  </filesMatch>
+  <filesMatch "\.(css)$">
+    Header set Cache-Control "public"
+  </filesMatch>
+  <filesMatch "\.(js)$">
+    Header set Cache-Control "private"
+  </filesMatch>
+</ifModule>
+# END Cache-Control Headers
+
+<ifModule mod_gzip.c>
+mod_gzip_on Yes
+mod_gzip_dechunk Yes
+mod_gzip_item_include file .(html?|txt|css|js|php|pl)$
+mod_gzip_item_include handler ^cgi-script$
+mod_gzip_item_include mime ^text/.*
+mod_gzip_item_include mime ^application/x-javascript.*
+mod_gzip_item_exclude mime ^image/.*
+mod_gzip_item_exclude rspheader ^Content-Encoding:.*gzip.*
+</ifModule>
+
+deny from 176.122.107.218
+deny from 199.195.252.4
+deny from 37.52.200.48

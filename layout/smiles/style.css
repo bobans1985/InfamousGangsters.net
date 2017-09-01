@@ -1,0 +1,160 @@
+body{margin: 0px;}
+.textbox{background-color: #414141; border-bottom: 1px solid #626262; border-left: 1px solid #040404; border-right: 1px solid #626262; border-top: 1px solid #040404; color: Silver; font-family: verdana; font-size: 10px; font-weight: bold;}
+.mainmenutable{border-style: solid; border-bottom: 1px solid #626262; border-left: 1px solid #040404; border-right: 1px solid #626262; border-top: 1px solid #040404;}
+a:hover {color: silver; text-decoration: none;font: 10px Verdana;}
+a {color: silver; text-decoration: none;font: 10px Verdana;}
+.online{font-family: verdana;font-size: 10px;}
+blockquote {font-family: vixar, tahoma, verdana, arial, helvetica, sans-serif;font-style: italic;color:#7e96ac;}
+.main{width:200; background-image: url(./layout/crossbg.png);}
+
+#casinos{ position: absolute; position: fixed; bottom: 0px; width:100%; align:center; }
+#melt{	text-align: left; position: absolute; position: fixed; top: 5px; right: 10px; overflow: hidden; cellpadding:3; background: #222; /* old browsers */ }
+
+.wtf {color: #666666;background-color: #222222;border-left: 10px solid #3F4343;font: 10px Verdana;text-decoration: none;text-align: left;}
+.wtfs {color: #666666;background-color: #222222;font: 10px Verdana;text-decoration: none;}
+.wtfyou {color: #666666;background-color: #222222;border-left: 10px solid khaki;font: 10px Verdana;text-decoration: none;}
+.SG  {color: #555555;background-color: #555555;padding: 1px;font: 4px Verdana;text-align: left;margin-top: 1px;}
+
+table.section{
+background-color:#171717;
+box-shadow: 0px 0px 1px #161616;
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+border-top-right-radius: 5px;
+background-image: linear-gradient(
+    left, 
+    rgba(20,20,20,1), 
+    rgba(20,20,20,0) 2%, 
+    rgba(20,20,20,0) 100%, 
+    rgba(20,20,20,1)
+  ), linear-gradient(
+    top, 
+    rgba(20,20,20,1), 
+    rgba(20,20,20,0) 2%, 
+    rgba(20,20,20,0) 100%, 
+    rgba(20,20,20,1)
+  );
+}
+.tab{
+background-color:#171717;
+box-shadow: 0px 0px 1px #161616;
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+border-top-right-radius: 5px;
+background-image: -moz-linear-gradient(
+    left, 
+    rgba(20,20,20,1), 
+    rgba(20,20,20,0) 2%, 
+    rgba(20,20,20,0) 100%, 
+    rgba(20,20,20,1)
+  ), -moz-linear-gradient(
+    top, 
+    rgba(20,20,20,1), 
+    rgba(20,20,20,0) 2%, 
+    rgba(20,20,20,0) 100%, 
+    rgba(20,20,20,1)
+  );
+color: silver;
+font: 10px Verdana;
+text-align: center;
+margin-top: 4px;
+margin-bottom: 4px;
+}
+.rmtab{
+background-color:#171717;
+box-shadow: 0px 0px 1px #161616;
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+border-top-right-radius: 5px;
+background-image: gradient(
+    left, 
+    rgba(20,20,20,1), 
+    rgba(20,20,20,0) 2%, 
+    rgba(20,20,20,0) 100%, 
+    rgba(20,20,20,1)
+  ), gradient(
+    top, 
+    rgba(20,20,20,1), 
+    rgba(20,20,20,0) 2%, 
+    rgba(20,20,20,0) 100%, 
+    rgba(20,20,20,1)
+  );
+color: silver;
+font: 10px Verdana;
+text-align: center;
+margin-top: 2px; 
+margin-bottom: 2px;
+}
+
+.button a {
+color: silver;
+background-color: #282828;
+padding: 1px;
+padding-left: 3px;
+display: block;
+border-left: 10px solid #171717;
+border-right: 10px solid #171717;
+font: 10px Verdana;
+text-decoration: none;
+text-align: left;
+margin-top: 1px;
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+border-top-right-radius: 5px;
+}
+.button a:hover{
+border-left: 10px solid #171717;
+border-right: 10px solid #171717;
+background-color: #282828;
+text-decoration: none;
+color: silver;
+}
+.rmbutton a {
+color: silver;
+background-color: #282828;
+padding: 1px; 
+display: block;
+font: 10px Verdana;
+text-decoration: none;
+text-align: center;
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+border-top-right-radius: 5px;
+}
+.rmbutton a:hover{
+background-color: #282828;
+text-decoration: none;
+color: silver;
+}
+.button1 {
+color: silver;
+background-color: #282828;
+padding: 1px;
+display: block;
+font: 10px Verdana;
+text-decoration: none;
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+border-top-right-radius: 5px;
+}
+.button1 a:hover{
+color: silver;
+text-decoration: none;
+}
+/* MENU STYLE */
+.menutopleft{ width: 15px; background-image: url(http://www.toughdons.com/more/topleft.png);  background-repeat: no-repeat; background-position: bottom; }
+.menutopright{ width: 15px; background-image: url(http://www.toughdons.com/more/topright.png);  background-repeat: no-repeat; background-position: bottom; }
+.menutopbar{ width: 100%; text-shadow:5px 5px 5px #222222; background-repeat: repeat-x; background-image: url(http://www.toughdons.com/more/top.png); background-position: top; color: silver; text-decoration: none;font: 10px Verdana; }
+.menutopend{ width: 100%; background-repeat: repeat-x; background-image: url(http://www.toughdons.com/more/top.png); background-position: top; }
+.menutopmain{ width: 100%; background-repeat: repeat-x; background-image: url(http://www.toughdons.com/more/top.png); background-position: top; }
+.menuleft{ width: 6px; height: 6px; background-repeat: repeat-y; background-image: url(http://www.toughdons.com/more/leftb.png);  }
+.menuright{ width: 6px; height: 6px; background-repeat: repeat-y; background-image: url(http://www.toughdons.com/more/rightb.png);  }
+.menubottomleft{ width: 15px; background-image: url(http://www.toughdons.com/more/bottomleft.png);  background-repeat: no-repeat;  }
+.menubottommain{ width: 100%; background-repeat: repeat-x; background-image: url(http://www.toughdons.com/more/bottom.png);}
+.menubottomright{ width: 15px; background-image: url(http://www.toughdons.com/more/bottomright.png);  background-repeat: no-repeat;  }

@@ -1,0 +1,250 @@
+body{margin: 0px;}
+.textbox{background-color: #414141; border-bottom: 1px solid #626262; border-left: 1px solid #040404; border-right: 1px solid #626262; border-top: 1px solid #040404; color: Silver; font-family: verdana; font-size: 10px; font-weight: bold;}
+textoutcome{background-color: #333333; border-bottom: 1px solid #222222; border-left: 1px solid #222222; border-right: 1px solid #222222; border-top: 1px solid #222222; color: white; font-family: verdana; font-size: 10px;}
+.mainmenutable{border-style: solid; border-bottom: 1px solid #626262; border-left: 1px solid #040404; border-right: 1px solid #626262; border-top: 1px solid #040404;}
+.online{font-family: verdana;font-size: 10px;}
+blockquote {font-family: vixar, tahoma, verdana, arial, helvetica, sans-serif;font-style: italic;color:#7e96ac;}
+.inline_form{width: auto;display: inline-block;}
+
+#popup{ position: fixed; left:50%; top: 50%;  }
+#melt{	text-align: left; position: absolute; position: fixed; top: 5px; right: 10px; overflow: hidden; cellpadding:3; background: #222; /* old browsers */ }
+
+.wtf {color: #666666;background-color: #222222;border-left: 10px solid #3F4343;font: 10px Verdana;text-decoration: none;text-align: left;}
+.wtfs {color: #666666;background-color: #222222;font: 10px Verdana;text-decoration: none;}
+.wtfyou {color: #666666;background-color: #222222;border-left: 10px solid khaki;font: 10px Verdana;text-decoration: none;}
+.SG  {color: #555555;background-color: #555555;padding: 1px;font: 4px Verdana;text-align: left;margin-top: 1px;}
+input.deletebutton{ margin: 0; border: none; background-color: transparent; padding: 0; font: 10px Verdana; color: red; font-weight: bold; }
+
+table.popup{
+position:fixed;
+bottom:1px;
+right:10px;
+left:10px;
+border:1px solid #111111;
+background-color: #333333;
+color: white;
+font: 10px Verdana;
+text-align: center;
+margin-top: 3px;
+margin-bottom: 5px;
+}
+
+table.outcomeresult{
+position:fixed;
+bottom:1px;
+right:10px;
+left:10px;
+border:1px solid #111111;
+background-color: #333333;
+color: white;
+font: 10px Verdana;
+text-align: center;
+margin-top: 3px;
+margin-bottom: 5px;
+}
+table.sectionn{
+border:1px solid #111111;
+background-color: #222222;
+color: white;
+font: 10px Verdana;
+text-align: center;
+margin-top: 3px;
+margin-bottom: 5px;
+}
+table.section{
+background-color:#161616;
+box-shadow: 0px 0px 1px #141414;
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+border-top-right-radius: 5px;
+background-image: linear-gradient(
+    left,
+    rgba(20,20,20,1),
+    rgba(20,20,20,0) 2%,
+    rgba(20,20,20,0) 100%,
+    rgba(20,20,20,1)
+  ), linear-gradient(
+    top,
+    rgba(20,20,20,1),
+    rgba(20,20,20,0) 2%,
+    rgba(20,20,20,0) 100%,
+    rgba(20,20,20,1)
+  );
+}
+.tab{
+border-color:black;
+box-shadow: 0px 0px 1px #161616;
+background-image: -moz-linear-gradient(
+    left,
+    rgba(20,20,20,1),
+    rgba(20,20,20,0) 2%,
+    rgba(20,20,20,0) 100%,
+    rgba(20,20,20,1)
+  ), -moz-linear-gradient(
+    top,
+    rgba(20,20,20,1),
+    rgba(20,20,20,0) 2%,
+    rgba(20,20,20,0) 100%,
+    rgba(20,20,20,1)
+  );
+color: white;
+font: 10px Verdana;
+text-align: left;
+ text-indent:10px;
+margin-top: 3px;
+margin-bottom: 3px;
+}
+.rmtab{
+background-color:#171717;
+box-shadow: 0px 0px 1px #161616;
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+border-top-right-radius: 5px;
+background-image: gradient(
+    left,
+    rgba(20,20,20,1),
+    rgba(20,20,20,0) 2%,
+    rgba(20,20,20,0) 100%,
+    rgba(20,20,20,1)
+  ), gradient(
+    top,
+    rgba(20,20,20,1),
+    rgba(20,20,20,0) 2%,
+    rgba(20,20,20,0) 100%,
+    rgba(20,20,20,1)
+  );
+color: silver;
+font: 10px Verdana;
+text-align: center;
+margin-top: 2px;
+margin-bottom: 2px;
+}
+
+.button a {
+color: silver;
+background-color: #282828;
+padding: 1px;
+padding-left: 3px;
+display: block;
+font: 10px Verdana;
+text-decoration: none;
+text-align: left;
+margin-top: 1px;
+}
+.button a:hover{
+background-color: #282828;
+text-decoration: none;
+color: silver;
+}
+.rmbutton a {
+color: silver;
+background-color: #282828;
+padding: 1px;
+display: block;
+font: 10px Verdana;
+text-decoration: none;
+text-align: center;
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
+border-top-right-radius: 5px;
+}
+.rmbutton a:hover{
+background-color: #282828;
+text-decoration: none;
+color: silver;
+}
+.button1 {
+color: silver;
+background-color: #282828;
+padding: 1px;
+display: block;
+font: 10px Verdana;
+text-decoration: none;
+}
+.button1 a:hover{
+color: silver;
+text-decoration: none;
+}
+/* MENU STYLE */
+.menutopleft{ width: 15px; background-image: url(http://www.toughdons.com/more/topleft.png);  background-repeat: no-repeat; background-position: bottom; }
+.menutopright{ width: 15px; background-image: url(http://www.toughdons.com/more/topright.png);  background-repeat: no-repeat; background-position: bottom; }
+.menutopbar{ width: 100%;  background-repeat: repeat-x; background-image: url(http://www.toughdons.com/more/top.png); background-position: top; color: #222222; text-decoration: bold;font: 10px Verdana; }
+.menutopend{ width: 100%; background-repeat: repeat-x; background-image: url(http://www.toughdons.com/more/top.png); background-position: top; }
+.menutopmain{ width: 100%; background-repeat: repeat-x; background-image: url(http://www.toughdons.com/more/top.png); background-position: top; }
+.menuleft{ width: 6px; height: 6px; background-repeat: repeat-y; background-image: url(http://www.toughdons.com/more/leftb.png);  }
+.menuright{ width: 6px; height: 6px; background-repeat: repeat-y; background-image: url(http://www.toughdons.com/more/rightb.png);  }
+.menubottomleft{ width: 15px; background-image: url(http://www.toughdons.com/more/bottomleft.png);  background-repeat: no-repeat;  }
+.menubottommain{ width: 100%; background-repeat: repeat-x; background-image: url(http://www.toughdons.com/more/bottom.png);}
+.menubottomright{ width: 15px; background-image: url(http://www.toughdons.com/more/bottomright.png);  background-repeat: no-repeat;  }
+
+.col.is-label {
+    padding-top:0;
+    padding-bottom:0;
+}
+.col.is-btn-wrapper {
+    padding:0;
+    border-left:0;
+}
+tr.is-label:hover {
+    opacity:0.99;
+}
+@keyframes slideUpAnim {
+    0% {
+        transform:translateY(10px);
+        opacity:0;
+    }
+    70% {
+        transform:translateY(-2px);
+        opacity:1;
+    }
+    100% {
+        transform:translateY(0);
+    }
+}
+.bj-card {
+    margin:5px;
+    border:1px solid #444444;
+    box-shadow:5px 5px 5px rgba(0,0,0,0.2);
+    width:75px;
+    border:1px solid #444444;
+    border-radius:4px;
+}
+.bj-card.newest-card {
+    animation:slideUpAnim 1s;
+}
+.bj-card-col {
+    padding:13px!important;
+    padding-top:11px!important;
+    padding-bottom:15px!important;
+    text-align:center!important;
+    white-space:normal!important;
+}
+.bet-col {
+    text-align:center!important;
+    background-color:#333333;
+    padding:9px!important;
+    padding-top:11px!important;
+    font-size:10px!important;
+    border-bottom:1px solid #424242!important;
+}
+.bj-sub {
+    background-color:#292929!important;
+    padding:7px!important;
+    padding-top:9px!important;
+    font-size:12.5px!important;
+}
+.bj-action {
+    padding:7px;
+    padding-left:15px;
+    padding-right:15px;
+    font-size:14px;
+    margin-left:6px;
+    margin-right:6px;
+    margin-top:13px;
+    border-radius:3px;
+    min-width:130px;
+}
+

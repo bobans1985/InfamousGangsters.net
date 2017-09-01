@@ -1,0 +1,14 @@
+.textbox{background-color: #414141; border-bottom: 1px solid #626262; border-left: 1px solid #040404; border-right: 1px solid #626262; border-top: 1px solid #040404; color: Silver; font-family: verdana; font-size: 10px; font-weight: bold;}
+.mainmenutable{border-style: solid; border-bottom: 1px solid #626262; border-left: 1px solid #040404; border-right: 1px solid #626262; border-top: 1px solid #040404;}
+a:hover {color: #999999; text-decoration: none;}
+a {color: #999999; text-decoration: none;}
+blockquote {font-family: vixar, tahoma, verdana, arial, helvetica, sans-serif;font-style: italic;color:#7e96ac;}
+.topleft{width:8; height:22; background-image: url(/layout/topleft.png);}
+.topright{width:8; height:22; background-image: url(/layout/topright.png);}
+.top{width:200; height:22; background-image: url(/layout/top.png);}
+.left{width:8; background-image: url(/layout/leftb.png);}
+.right{width:8; background-image: url(/layout/rightb.png);}
+.main{width:200; background-image: url(/layout/crossbg.png);}
+.bottomleft{width:8; height:9; background-image: url(/layout/bottomleft.png);}
+.bottomright{width:8; height:9; background-image: url(/layout/bottomright.png);}
+.bottom{width:200; height:9; background-image: url(/layout/bottom.png);}
